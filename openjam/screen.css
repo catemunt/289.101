@@ -46,3 +46,105 @@ body {
     margin-top: 25px;
     padding: 15px 30px;
 }
+
+#what {
+    background-color: rgba(199,238,221, 0.93);
+    color: #347788;
+    padding-top: 15px;
+    margin-top: 300px;
+    line-height: 1.6em;
+    padding-bottom: 20px
+    
+}
+
+#what h1 {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#what p {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    
+}
+
+#what h2 {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 24px;
+}
+
+#what h1 + p {
+    font-size: 1.2em;
+    line-height: 1.4em
+}
+
+#sponsor_logos {
+    word-spacing: 10px;
+}
+
+#sponsor_logos img {
+    width: 300px;
+    padding-left: 80px;
+}
+
+#why {
+    background-color: #b6ead3;
+    color: #347788;
+    padding-top: 15px;
+    height: 20em;
+    line-height: 1.6em;
+}
+
+#why h1 {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#why p {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left; 
+}
+
+
+#where {
+    background-image: url(img/map.gif);
+    background-position: center;
+    background-size: 1000px, auto;
+    background-repeat: no-repeat;
+    padding: 20px;
+    height: 300px;
+        
+}
+
+#where h1 {
+    color: #bb4488;
+    font-size: 22px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 5px
+    
+}
+
+#where p {
+    color: #bb4488;
+    font-size: 12px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    text-align: right;
+    
+}
