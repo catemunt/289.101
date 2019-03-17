@@ -32,7 +32,7 @@ body {
 }
 
 #description, #date {
-    width: 220px;
+    width: 220px; 
 }
 
 .register_btn {
@@ -120,31 +120,118 @@ body {
 #where {
     background-image: url(img/map.gif);
     background-position: center;
-    background-size: 1000px, auto;
+    background-size: auto;
     background-repeat: no-repeat;
-    padding: 20px;
-    height: 300px;
+    padding: 5px;
+    height: 550px;
         
 }
 
 #where h1 {
     color: #bb4488;
-    font-size: 22px;
+    font-size: 1.8em;
     width: 800px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    margin-bottom: 5px
+    margin-bottom: 5px;
     
 }
 
 #where p {
     color: #bb4488;
-    font-size: 12px;
-    width: 400px;
+    font-size: 14px;
+    font-weight: bolder;
+    width: 600px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 3px;
+    margin-top: 70px;
     text-align: right;
     
+}
+
+#when {
+    background-color: rgba(67,153,152, 0.93);
+    background-image: url(img/wires.png);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding: 5px;
+    height: 600px;
+        
+}
+
+#when h1 {
+    color: #fff;
+    font-size: 1.8em;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 5px;
+    
+}
+
+#when h2 {
+    color: #fff;
+    text-align: center;
+    padding-top: 1em;
+        
+}
+
+#when h3{
+    color: #fff;
+    text-align: center;
+    border-top: 2px;
+    border-top-color: white;
+    border-top-style: dashed;
+    padding-top: 20px;
+}
+
+#when ul {
+    color: #fff;
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+    width: 800px;
+  
+}
+
+#who {
+    background-color: white;
+    padding: 5px;
+    height: 300px;
+    color: #347788;
+}
+
+#who h1 {
+    font-size: 1.8em;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#who p {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+#footer {
+    background-image: url(img/texture.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    height: 100px;
+    text-align: center;
+}
+
+#footer img {
+    width: 70px;
+    height: 70px;
+    padding-right: 30px;
 }
