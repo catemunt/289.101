@@ -13,26 +13,37 @@
             
             .blue {
                 background-color: #3FB4FF;
-                height: 50px;
+                height: 100px;
             }
             
             .green {
                 background-color: greenyellow;
-                height: 120px;
+                height: 100px;
             }
             
             .orange {
                 background-color: orange;
-                height: 180px;
+                height: 650px;
             }
             
             .grey {
                 background-color: lightgrey;
-                height: 60px;
+                max-width: 170px;
+                height: 170px;
+                margin: 22px;
+                
             }
             
             .red {
                 background-color: darkred;
+                height: 250px;
+            }
+            
+            .pink {
+                background-color: magenta;
+                height: 100px;
+                max-width: 230px;
+                margin: 22px;
             }
             
             /* sm */
@@ -44,20 +55,67 @@
                 .green {
                     height: 180px;
                 }
+                
+                .grey {
+                background-color: lightgrey;
+                max-width: 100px;
+                height: 100px;
+                margin: 22px;
+                }
+                
+                .orange{
+                    height: 440px;
+                }
+                
+                .red {
+                    height: 432px;
+                }
             }
             /* lg */
             @media (min-width: 992px) {
+                .blue {
+                    height: 70px;
+                }
                 .green {
-                    height: 250px;
+                    height: 860px;
+                    max-width: 250px;
                 }
                 
                 .grey {
-                    height: 160px;
+                    height: 100px;
                 }
+                
+                .orange {
+                    height: 860px;
+                    min-width: 460px;
+                }
+                
+                .red {
+                    height: 860px; 
+                    max-width: 250px;
+                }
+                
             }
             /* xl */
             @media (min-width: 1200px) {
+                .green {
+                    height: 860px;
+                    max-width: 340px;
+                }
                 
+                .grey {
+                    height: 100px;
+                }
+                
+                .orange {
+                    height: 860px;
+                    min-width: 460px;
+                }
+                
+                .red {
+                    height: 860px; 
+                    max-width: 340px;
+                }
             }
             
         </style>
@@ -72,19 +130,25 @@
                 <div class="col-12 blue"></div>
             </div>
             
-            <div class="row green"></div>
-            
             <div class="row">
                 <div class="col-12 col-lg-4 green"></div>
-                <div class="col-12 col-lg-4 orange"></div>
-                <div class="col-12 col-lg-4 orange"></div>
-            </div>
-            
-            <div class="row">
-                <div class="grey col-6 col-lg-3 d-none d-md-block"></div>
-                <div class="grey col-6 col-lg-3 d-none d-md-block"></div>
-                <div class="grey col-6 col-lg-3 d-none d-md-block"></div>
-                <div class="grey col-6 col-lg-3 d-none d-md-block"></div>
+                <div class="col-12 col-md-6 col-lg-4 orange">
+                    <div class="row justify-content-center">
+                        <div class="grey col-6"></div>
+                        <div class="pink col-lg-6 d-none d-lg-block"></div>
+                        <div class="grey col-6"></div>
+                        <div class="pink col-lg-6 d-none d-lg-block"></div>
+                        <div class="grey col-6"></div>
+                        <div class="pink col-lg-6 d-none d-lg-block"></div>
+                        <div class="grey col-6"></div>
+                        <div class="pink col-lg-6 d-none d-lg-block"></div>
+                        <div class="grey col-6"></div>
+                        <div class="pink col-lg-6 d-none d-lg-block"></div>
+                        <div class="grey col-6"></div> 
+                        <div class="pink col-lg-6 d-none d-lg-block"></div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 red"></div>
             </div>
             
         </div>
